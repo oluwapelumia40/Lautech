@@ -1,0 +1,199 @@
+.home{
+    margin: 0;
+    padding: 0;
+}
+.admission{
+    margin-bottom: 0px;
+}
+.form h4{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.fonter{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../public/logo/libimg.png);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.form{
+    margin: 20px 0 !important;
+    width: 30%;
+    position: relative;
+    background-color: white;
+	padding: 10px 20px ;
+	align-items: center; 
+    border-radius: 10px;
+ }
+ .regWrapper{
+     width: 100%;
+     margin-bottom: 10px;
+ }
+ .regInput{
+     border-bottom: 1px solid black !important;
+     border-left: none !important;
+     border-top: none !important;
+     border-right: none !important;
+     border-radius: 0 !important;
+ }
+ .regInput:focus{
+     box-shadow: none !important;
+ }
+ .formlogin{
+    margin: 20px 0 !important;
+    width: 30%;
+    position: relative;
+    background-color: white;
+	padding: 30px 20px ; 
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+ }
+ .loginform{
+    margin: 20px 0 !important;
+    width: 50%;
+    position: relative;
+    background-color: white;
+	padding: 30px 20px ; 
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+ }
+ .loginform h4{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 20px 10px 10px;
+}
+ .regButton {
+     background-color: black;
+     width: 100%;
+     padding: 20px;
+     margin-bottom: 10px;
+     display: flex;
+     justify-content:center ;
+     align-items: center;
+     height: 40px;
+     font-family: sans-serif;
+     color: white;
+     border-radius: 7px;
+ }
+ .loginButton {
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 40px;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 7px;
+    margin: 20px 0px 10px 0px ;
+}
+.forgetbut {
+    margin-top: 20px;
+}
+ .forgetpass{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 130px;
+}
+.regBut{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    color:black;
+}
+.regBut:hover {
+        color: blue;
+}
+
+.containerBody{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.body h3{
+    font-size: 28px;
+    font-family: Roboto, sans-serif;
+    padding-top: 30px;  
+}
+.body p{
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    padding-top: 10px;
+}
+.body h6{
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.body ol, li{
+    list-style-type: lower-alpha;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+}
+.contact h6{
+    margin-bottom: 30px;
+}
+.contact p{
+    font-size: 15px;
+    padding-top: -20px !important;
+    margin-top: -25px !important;
+}
+.applyNow{
+    margin: 35px 70px;
+    color: white;
+    background-color: rgb(239, 70, 98);
+    width: 100px;
+    height: 35%;
+    font-family: system-ui, sans-serif;
+    border-radius: 10px;
+    border: none;
+}
+.applyNow:hover{
+    color: white;
+    background-color: rgb(234, 141, 157);
+}
+
+.years{
+    border-radius: 3px 3px 0px 0px;
+    background-color: rgb(189, 182, 182);
+    color: black;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    border: none !important;
+    height: 50px;
+    width: 17%;
+    margin-right: 1px;
+}
+.yearsActive{
+    background-color: white !important;
+}
+.a{
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width:100%) {
+    .form{
+        width: 70%;
+    }
+    
+} 
+@media screen and (max-width:100%) {
+    .form{
+        width: 70%;
+    }
+    
+}

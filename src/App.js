@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import {useState} from 'react'
+import Home from './home';
+import "bootstrap/dist/css/bootstrap.css"
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import About from "./About";
+import Apply from "./Apply";
+import Portal from './Portal';
+import Login from "./Login";
+import Admission from './Admission';
+import Campus from './Campus';
+import Contact from './Contact';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+         <Routes>
+           <Route path="/" exact element={<Home/>}/> 
+           <Route path="/about" exact element={<About/>}/>
+           <Route path="/apply" exact element={<Apply/>}/>
+           <Route path="/portal" exact element={<Portal/>}/>
+           <Route path="/login" exact element={<Login/>}/>
+           <Route path="/admission" exact element={<Admission/>}/>
+           <Route path="/campus" exact element={<Campus/>}/>
+           <Route path="/contact" exact element={<Contact/>}/>
+         </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.paginationStyle{
+    background-color: #eaeaea;
+    border-radius: 5px;
+}
+.regCourse li{
+    font-size: 14px;
+    list-style-type: decimal;
+    margin-bottom: 5px !important;
+    margin-left: 5px;
+}
+h6{
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    margin-top: 25px !important;
+}
+.paginationStyle:active{
+    background-color: white;
+}
+.adReq1, li{
+    margin-left: 30px !important;
+    margin-bottom: 10px;
+    list-style-type: disc;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+}
+.adReq1, p{
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 26px;
+}
