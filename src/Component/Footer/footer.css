@@ -1,20 +1,24 @@
+.footerBottom{
+  font-size: 14px !important; 
+  font-family: Roboto, sans-serif; 
+}
 .footer1{
     background-color: #380101;
-    font-size: 14px;
     color: white;
     margin-top: 100px;
     padding: 50px 110px 20px 120px;
     font-family: Roboto, sans-serif;
     line-height: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 200px 3fr;
 }
-.firstText{
-    font-size: 16px !important;
-    font-family: Roboto, sans-serif;
+.col2{
+    padding-left: 30px;
 }
 .footer1 a{
     text-decoration: none;
     color: white;
-    font-size: 17px;
+    text-decoration: underline;
 }
  .footer2 p{
     display: grid;

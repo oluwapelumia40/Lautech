@@ -5,7 +5,7 @@ export default function Topbar() {
   return (
     <div className="container-fluid">
         <div className="row">
-        <div className="col-md-12">
+        <div className="col-md-12 marg">
             <div className="headerWrapper">
                     <div className="headerContact">
                         <Link to="#">
@@ -18,7 +18,7 @@ export default function Topbar() {
                     </div> 
              </div>
             < div className="header">
-                <div className="row">
+                <div className="row col-sm-12">
                     <div className="col-sm-3">
                     <Link to="#"> <img src="/logo/logo.png" className="img"/> </Link>
                     </div>

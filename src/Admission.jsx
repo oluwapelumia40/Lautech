@@ -33,7 +33,7 @@ function Admission () {
         <div className="admission">
             <Topbar />
             <div className="container">
-                <div className="row body">
+                <div className="content">
                     <h3>ADMISSION INTO OPEN AND DISTANCE LEARNING (ODL) DEGREE PROGRAMMES FOR THE 2022/2023 ACADEMIC SESSION</h3>
                     <p>Applications are hereby invited from qualified candidates into the ODL Bachelor’s Degree Programmes in the Open and Distance Learning Centre of Ladoke Akintola University of Technology, Ogbomoso for the 2020/2021 Academic Session.</p>
                         <h6>IMPORTANT NOTICE ON ADMISSION REQUIREMENTS</h6>
@@ -44,7 +44,7 @@ function Admission () {
                    <div className="list">
                    <ol>
                         <li> Application forms are available on-line on payment of Application and Computer Training fee of ₦12,500.00 only. </li>
-                        <li> Candidates are expected to register on the Centre’s website; <Link to="/ homePage"> lodlc.lautech.edu.ng</Link> by completing and submitting the on-line application form. </li>
+                        <li> Candidates are expected to register on the Centre’s website; <Link to="/homePage"> lodlc.lautech.edu.ng</Link> by completing and submitting the on-line application form. </li>
                         <li> In completing the on-line application form, candidates are required to upload a scanned passport photograph with white background showing ears, no cap and no glasses. The scanned passport photograph must be in JPEG format (i.e. jpg) and must not be more than 20kb. On submission of the application form, candidates are to print out Referee Form. </li>
                     </ol>
                    </div>

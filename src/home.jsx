@@ -9,6 +9,10 @@ return (
     <div className="home">
         <Topbar />
 
+            <div className="homeImage">
+                <img src="/image/schools.jpg" alt="School building"/>
+            </div>
+
         <Footer/>
     </div>
     )

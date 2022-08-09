@@ -4,7 +4,7 @@ import "./usePagination.css"
 export default function UsePagination2() {
   return (
     <div className='paginationStyle'>
-        <div className='regCourse'><br></br>
+        <div className='regCourse'>
         <ol>
             <li> B.Sc. Accounting </li>
             <li> B.Sc. Marketing </li>
@@ -33,7 +33,6 @@ export default function UsePagination2() {
             <li> Higher National Diploma (HND) from recognized Polytechnics with a Minimum of Lower Credit in B.Sc. Agricultural Economics or any other relevant disciplines may also be considered. </li>
             <li> Third Class degree in B.Sc. Agricultural Economics. </li>
             <li> Candidates in every category above must obtain Five (5) Credit passes at not more than two sittings in WAEC, NABTEB and or NECO </li>
-            <br></br>
         </div>
      </div>
   )

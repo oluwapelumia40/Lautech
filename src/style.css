@@ -120,23 +120,23 @@
     margin-top: 10px;
 }
 
-.body h3{
+.content h3{
     font-size: 28px;
     font-family: Roboto, sans-serif;
     padding-top: 30px;  
 }
-.body p{
+.content p{
     font-size: 15px;
     font-family: Roboto, sans-serif;
     padding-top: 10px;
 }
-.body h6{
+.content h6{
     font-family: Roboto, sans-serif;
     font-weight: bold;
     font-size: 15px;
     padding-top: 20px;
 }
-.body ol, li{
+.content ol, li{
     list-style-type: lower-alpha;
     font-family: Roboto, sans-serif;
     font-size: 15px;
@@ -152,16 +152,15 @@
 .applyNow{
     margin: 35px 70px;
     color: white;
-    background-color: rgb(239, 70, 98);
-    width: 100px;
-    height: 35%;
+    background-color: rgb(237, 51, 82);
+    padding: 8px;
     font-family: system-ui, sans-serif;
     border-radius: 10px;
     border: none;
 }
 .applyNow:hover{
     color: white;
-    background-color: rgb(234, 141, 157);
+    background-color: rgb(88, 0, 15);
 }
 
 .years{
@@ -183,17 +182,56 @@
 }
 
 
+.homeImage{
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+}
+.homeImage img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+}
+
+/* About page style */
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+}
+.about-col1{
+    margin-left: 150px;
+    margin-top: 150px;
+    padding-bottom: 70px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 15px;
+    border-radius: 5px;
+}
+.about-col2{
+    padding-left: 200px;
+    padding-top: 150px;
+}
+.about-col1 p{
+    font-size: 14px !important;
+    padding-bottom: 50px;
+}
+.read-more1{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid red;
+}
 
 
-@media screen and (max-width:100%) {
+@media screen and (max-width:1000px) {
     .form{
-        width: 70%;
-    }
-    
+        width: 100%;
+    } 
 } 
-@media screen and (max-width:100%) {
+@media screen and (max-width:465px) {
     .form{
-        width: 70%;
+        width: 100%;
     }
-    
 }
