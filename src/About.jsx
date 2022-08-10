@@ -24,7 +24,10 @@ function About (){
                     <p> Computer proficiency training and test will be conducted for all applicants.</p>
                     <Link to="#" className="read-more2"> READ MORE </Link>
                     </div>
+
             </div>
+
+            <div> </div>
            <Footer/>
         </div>
 
