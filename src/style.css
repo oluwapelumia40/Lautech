@@ -201,15 +201,10 @@
 }
 .about-col1{
     margin-left: 150px;
-    margin-top: 150px;
+    margin-top: 250px;
     padding-bottom: 70px;
-    box-shadow: 10px 10px 5px #aaaaaa;
     padding: 15px;
     border-radius: 5px;
-}
-.about-col2{
-    padding-left: 200px;
-    padding-top: 150px;
 }
 .about-col1 p{
     font-size: 14px !important;
@@ -220,8 +215,29 @@
     color: black;
     font-size: 16px;
     padding: 10px;
-    border-radius: 10px;
-    border: 0.5px solid red;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+.about-col2{
+    padding-left: 70px !important;
+    padding: 50px;
+    margin-right: 150px;
+    background-color: grey;
+    margin-top: 30px;
+    color: white;
+}
+.about-col2-text1{
+    font-size: 25px;
+    line-height: 30px;
+}
+.read-more2{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-weight: inherit;
 }
 
 
